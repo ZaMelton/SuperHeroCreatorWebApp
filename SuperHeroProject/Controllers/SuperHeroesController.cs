@@ -104,6 +104,7 @@ namespace SuperHeroProject.Controllers
                     superHeroFromDb.PrimarySuperHeroAbility = superHeroFromForm.PrimarySuperHeroAbility;
                     superHeroFromDb.SecondarySuperHeroAbility = superHeroFromForm.SecondarySuperHeroAbility;
                     superHeroFromDb.CatchPhrase = superHeroFromForm.CatchPhrase;
+                    superHeroFromDb.Image = superHeroFromForm.Image;
                     _context.SaveChanges();
                     return RedirectToAction(nameof(Index));
                 }

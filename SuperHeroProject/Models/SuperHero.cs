@@ -10,10 +10,15 @@ namespace SuperHeroProject.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string AlterEgo { get; set; }
+        [Required]
         public string PrimarySuperHeroAbility { get; set; }
         public string SecondarySuperHeroAbility { get; set; }
         public string CatchPhrase { get; set; }
+        public string Image { get; set; }
+
     }
 }
