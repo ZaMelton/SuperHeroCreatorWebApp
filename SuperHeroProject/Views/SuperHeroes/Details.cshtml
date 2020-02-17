@@ -11,8 +11,9 @@
     <hr />
     @if (Model.Image != null)
     {
-        <img src ="@Model.Image" class="col-sm-3"/>
+        <img src ="@Model.Image" class="col-sm-3 rounded-circle"/>
     }
+    <hr />
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.AlterEgo)
